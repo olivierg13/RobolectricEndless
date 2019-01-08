@@ -1,16 +1,13 @@
 package com.example.robolectricendless;
 
 import android.support.v4.app.FragmentManager;
-import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.AppCompatActivity;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 
 @EActivity(R.layout.activity_main)
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     public static final String TAG_FRAGMENT = MainActivityFragment.class.getSimpleName();
 
